@@ -1,0 +1,6 @@
+INCLUDES = include
+
+rule build_test
+    command = clang++ -std=c++17 $in -o $out -lgtest -lpthread -I$INCLUDES -O2
+
+build tests.bin: build_test src/ring_buffer.cc tests/test_ring_buffer.cc
