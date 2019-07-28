@@ -147,7 +147,7 @@ class RingBuffer {
   }
 
   /**
-   * @brief non-checking
+   * @brief non range-checking
    *
    * @parameter index:
    * @returns ByteT&:
