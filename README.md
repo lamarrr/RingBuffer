@@ -1,5 +1,5 @@
 # RingBuffer
-A ring/cyclic buffer suitable for isr-task communication
+A ring/cyclic buffer suitable for ISR-Task communication
 
 ![Ring Buffer, Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ring_buffer.svg/246px-Ring_buffer.svg.png)
 
